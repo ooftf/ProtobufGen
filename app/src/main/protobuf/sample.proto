@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+// option java_package = "com.example.tutorial";生成类的包名
+// option java_outer_classname = "OuterSample"; 生成类的名字
+
+// option java_multiple_files = true;   是否开启多文件模式，默认关闭
+
+
+message Msg {
+    string foo = 1;
+    SecondMsg blah = 2;
+}
+
+message SecondMsg {
+    int32 blah = 1;
+}
