@@ -36,7 +36,7 @@ android {
 }
 
 protobuf {
-    // 生成Java文件的路径
+    // 生成Java文件的路径   generateDebugProto
     generatedFilesBaseDir = "$projectDir/src/generated"
     // Configure the protoc executable
     protoc {
